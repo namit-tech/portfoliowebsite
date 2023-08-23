@@ -1,0 +1,148 @@
+.about__section {
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.about__section__title {
+    font-size: 2rem;
+}
+
+.about__section__subtitle {
+    color: gray;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.about__img {
+    width: 25vw;
+    height: 35vh;
+    border-radius: 1.5rem;
+    border-radius: 10%;
+    margin: 30px 30px;
+}
+
+.about__info {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+
+}
+
+.about__box {
+    color: #ff9900;
+    border: 1px solid white;
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.5rem;
+}
+
+.about__description {
+    color: gray;
+    line-height: 5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.cv__button {
+    color: white;
+    background-color: #ff9900;
+    padding: 15px;
+    width: 10vw;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 3rem;
+}
+
+.cv__button:hover {
+    color: #ff9900;
+    background-color: black;
+    border: 1px solid #ff9900;
+}
+
+@media screen and (max-width:992px) {
+    .about__img {
+        width: 40vw;
+        height: 30vh;    
+    }
+
+    .about__description {
+        line-height: 5rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .about__img {
+        width: 45vw;
+        height: 30vh;    
+    }
+
+    .about__description {
+        line-height: 3rem;
+        font-size: 0.9rem;
+        font-weight: normal;
+    }
+
+}
+@media screen and (max-width:576px) {
+    .about__img {
+        width: 65vw;
+        height: 30vh;    
+    }
+
+    .about__description {
+        line-height: 1rem;
+        margin-top: 8%;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .about__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin:  0% 15%;
+    
+    }
+    
+    .about__box {
+        color: #ff9900;
+        border: 1px solid white;
+        border-radius: 0.75rem;
+        text-align: center;
+        padding: 1rem 1.5rem;
+    }
+    
+}
+@media screen and (max-width:356px) {
+    .about__img {
+        width: 65vw;
+        height: 30vh;    
+    }
+
+    .about__description {
+        line-height: 1rem;
+        margin-top: 8%;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .about__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin:  0% 15%;
+    
+    }
+    
+    .about__box {
+        color: #ff9900;
+        border: 1px solid white;
+        border-radius: 0.75rem;
+        text-align: center;
+        padding: 1rem 1.5rem;
+    }
+}

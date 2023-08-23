@@ -1,0 +1,75 @@
+.service__title{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10%;
+}
+.service__subtitle{
+    color: gray;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.web{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content: space-evenly;
+}
+
+.part-1{
+    width: 25%;
+    padding: 6%;
+    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+ .part-1 h1{
+    color: #ff9900;
+    font-size: 1rem;
+ }
+ .part-1 i{
+    color: #ff9900;
+    font-size: 3rem;
+ }
+
+
+
+hr{
+    width: 30px;
+    height: 1px;
+    margin: 5% auto;
+}
+
+@media screen and (max-width:992px) {
+    .part-1{
+        width: 25%;
+        padding:5%;
+    }
+    
+    .part-1 h1{
+        font-size: 0.8rem;
+     }
+}
+@media screen and (max-width:768px) {
+    .part-1{
+        width: 50%;
+        padding:4%;
+    }
+    
+    .part-1 h1{
+        font-size: 0.7rem;
+     }
+
+     .part-1 i{
+        font-size: 2rem;
+     }
+
+}
+@media screen and (max-width:576px) {
+    .part-1 i{
+        font-size: 1rem;
+     }
+}
+

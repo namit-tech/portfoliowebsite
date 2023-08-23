@@ -1,0 +1,167 @@
+.contact__container {
+    display: flex;
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+    margin-top: 10%;
+}
+
+.contact__title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+
+}
+
+.contact__info {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+}
+
+.contact__card {
+    background-color:black;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.contact__card-icon {
+    font-size: 2rem;
+    color: #ff9900;
+    margin-bottom: 0.25rem;
+}
+
+.contact__card-title,
+.contact__card-data {
+    font-size: 1rem;
+    color: #ff9900;
+}
+
+.contact__card-title {
+    font-weight: bold;
+}
+
+.contact__card-data {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: gray;
+}
+
+.contact__button {
+    color:#ff9900;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.contact__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+    color: #ff9900;
+}
+
+.contact__button:hover .contact__button-icon {
+    transform: translate(0.25rem);
+}
+
+.contact__form {
+    width: 360px;
+}
+
+.contact__form-div {
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+}
+
+.contact__form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    background: none;
+    color:white;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+.contact__form-tag {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: 1rem;
+    padding: 0.25rem;
+    background-color:black;
+    color: #ff9900;
+    z-index: 10;
+}
+
+.contact__form-area {
+    height: 11rem;
+}
+
+.contact__form-area textarea {
+    resize: none;
+}
+
+.button--flex{
+    background-color: #ff9900;
+    border-radius: 10px;
+    padding: 4%;
+    color:white;
+}
+.button--flex:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: #ff9900;
+}
+
+@media screen and (max-width:992px) {
+    .contact__container{
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact__container{
+       display: flex;
+       flex-direction: column;
+    }
+    .contact__info{
+        justify-content: center;
+    }
+
+    .contact__form{
+        margin: 0 auto;
+    }
+    .contact__title{
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .contact__container{
+        display: flex;
+        flex-direction: column;
+     }
+     .contact__info{
+         justify-content: center;
+     }
+ 
+     .contact__form{
+         margin: 0 auto;
+     }
+     .contact__title{
+         margin-top: 8%;
+     }
+}
